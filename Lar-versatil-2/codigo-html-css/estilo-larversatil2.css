@@ -1,0 +1,207 @@
+html,body {
+    
+    margin: 0;
+    padding: 15;
+    outline: none;
+}
+
+
+
+/* menu */
+.menu {
+    background-color: #fccdab ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif
+
+}    
+
+
+.menu a {
+ margin: 10px;
+ text-decoration: none;
+ color: #e08b14;
+}
+
+
+/* fim do menu */
+
+
+/* menu iniciar */
+h1 {
+    color: #e08b14;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* fim do menu iniciar */
+
+
+/* Nome da páginas */
+h2 {
+    color: #e08b14;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* fim do nome da páginas */
+
+
+
+/* Produtos */
+.categorias {
+    font-family: fantasy;
+    color: #ca6405;
+    font-size: 20px;
+}
+.seleçaodeprodutos {
+    text-align: center;
+    margin: 50px;
+    background-color: #eeb790 ;
+    width: 300px;
+    height: 400px;
+    border-radius: 100px ;
+}
+
+.seleçaodeprodutos img{
+ width: 100px;
+ height: 100px;
+}
+
+
+h3 {
+
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+#titulo {
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    color: #ca6405;
+    margin: 0;
+    padding: 0;
+}
+
+#preço {
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: line-through ;
+    font-size: 20px;
+    text-align: center;
+}
+#promoçao {
+    font-family: Arial, Helvetica, sans-serif; 
+    color:  #ca6405; 
+    text-align: center;
+}
+/* fim dos produtos */
+
+
+
+/* nossas lojas */
+.nossaslojas {
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+    margin: 20px;
+    background-color: #eeb790 ;
+    width: 300px;
+    height: 400px;
+    border-radius: 100px ;
+    color: #ca6405;
+    font-size: 20px;
+}
+/* fim de nossas lojas */
+
+
+/* Contatos */
+.contatos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #BA6513;
+
+}
+.sugestao {
+    text-align: center;
+    color: #BA6513;
+    background-color: #eeb790 ;
+    padding-top: 15px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+}
+/* fim dos contatos */
+
+
+
+
+
+/* Rodapé */
+#rodape {
+     font-family: sans-serif;
+     font-size: 5;
+     text-align: center;
+     padding-top: 5px;
+     color: #BA6513;
+     background-color:  #fccdab ;   
+   
+     
+}
+/* fim do Rodapé*/
+
+
+
+/* Página responsiva */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2200px;
+    margin: 0 auto;
+}
+.flex > div {
+    flex: 1 1 200px;
+}
+
+/* Animação em hover*/
+
+.seleçaodeprodutos  {
+    max-width: 100%;
+    -moz-transition: all 0.5;
+    -webkit-transition: all 0.5;
+    transition: all 0.5;
+
+}
+
+.seleçaodeprodutos:hover {
+    -moz-transform: scale(1.1);
+    -wekit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h1 img  {
+    max-width: 100%;
+    -moz-transition: all 0.5;
+    -webkit-transition: all 0.5;
+    transition: all 0.5;
+
+}
+
+h1:hover img{
+    -moz-transform: scale(1.1);
+    -wekit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.nossaslojas  {
+    max-width: 100%;
+    -moz-transition: all 0.5;
+    -webkit-transition: all 0.5;
+    transition: all 0.5;
+
+}
+
+.nossaslojas:hover {
+    -moz-transform: scale(1.1);
+    -wekit-transform: scale(1.1);
+    transform: scale(1.1);
+}
