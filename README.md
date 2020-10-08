@@ -6,7 +6,3 @@
 <h3> <a href="https://larversatil2-projeto.netlify.app/index.html"> Site Lar versátil 2 (com html e css básico) </a>
 </h3>
 
-<<<<<<< HEAD
-  
-=======
->>>>>>> 1a2634cf46a33fcfefe22eb51afb034c043df075
