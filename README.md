@@ -5,6 +5,6 @@
 </h3>
 <h3> <a href="https://larversatil2-projeto.netlify.app/index.html"> Site Lar versátil 2 (com html e css básico) </a>
 </h3>
-<h3> <a href="https://larversatil3-projeto.netlify.app/index.html"> Site Lar versátil 2 (com html, css e js básico) </a>
+<h3> <a href="https://larversatil3-projeto.netlify.app/index.html"> Site Lar versátil 3 (com html, css e js básico) </a>
 </h3>
 
