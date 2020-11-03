@@ -1,3 +1,28 @@
+<?php
+   $servername = "localhost";
+   $username = "root";
+   $password = "";
+   $database = "larversatil";
+
+   $conn = mysqli_connect($servername, $username, $password, $database);
+
+
+   if (!$conn) {
+     die("A conexão ao BD Falhou" . mysqli_connect_error());
+
+   }
+
+   if(isset($_POST['nome']) && isset($_POST['msg'])){
+     $nome = $_POST['nome'];
+     $msg = $_POST['msg'];
+
+     $sql = "insert into comentarios (nome, msg) values ('$nome', '$msg')";
+     $result = $conn->query($sql);
+   }
+  
+   ?>
+
+
 <!DOCTYPE html>
 
 <html lang = "pt-br">
@@ -15,16 +40,9 @@
   <body>
 
       <!--menu-->
-      <nav class="menu">
-
-        <a  href="./index.php"> <img width="150px" src="./imagens/logo.png" ></a>
-        
-        <div class= "submenu">
-         <a href="./produtos3.php"> Produtos </a> 
-         <a href="./loja3.php"> Nossas lojas </a> 
-         <a href="./contato3.php"> Contato </a> 
-      </div>
-      </nav>
+      <?php 
+        include_once('menu.html');
+      ?>
       <!--Fim do menu-->
 
      <header>
@@ -38,12 +56,12 @@
     <!--Contatos-->
     <div class = "contatos">
             <div  class="contato" >
-                <img src="./imagens/Contato/logoemail.png" >
+                <img src="../imagens/Contato/logoemail.png" >
                 <p>Contato@larversatil.com</p>
             </div>
 
             <div class= "contato" >
-                <img src="./imagens/Contato/logowhatsapp.jpg" >
+                <img src="../imagens/Contato/logowhatsapp.jpg" >
                 <p>(11) 99999 - 9999</p>
             </div>
         
@@ -55,16 +73,18 @@
 
     <!--Sugestão-->
 
-    <form class="sugestao">
+    <form method="post" action="" class="sugestao">
         <h3 id="comentario">Deixe sua sugestão aqui ;)</h3>
         <h5> Nome: </h5>
-        <input type="text" style="width: 500px;">
+        <input type="text" name="nome" style="width: 500px;">
         <h5> Mensagem: </h4>
-        <textarea style="width: 500px;"></textarea>
+        <input type="text" name="msg" style="width: 500px;"></input>
 
        <p><input type="submit" value="Enviar"></p>
 
      </form>
+
+     <h4 style="text-align:center"> <a href="./resposta.php"> Relatório </a> </h4>
   <br><br><br><br><br>
 
   <!--Fim da sugestão -->
@@ -74,7 +94,7 @@
 
  <footer id = "rodape" >
    <p id= "Formasdepamento"> Formas de pagamento </p>
-   <img src="./imagens/formas-de-pagamento.png" >
+   <img src="../imagens/formas-de-pagamento.png" >
    <p> &copy; Larissa - Recode Pro</p>
  </footer>
 

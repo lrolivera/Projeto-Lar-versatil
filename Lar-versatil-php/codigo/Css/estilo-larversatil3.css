@@ -1,7 +1,7 @@
 html,body {
     
     margin: 0;
-    padding: 15;
+    padding: 0;
     outline: none;
 }
 
@@ -223,7 +223,7 @@ h3 {
 
 /* Rodapé */
 #rodape {
-
+     
      font-family: 'Press Start 2P', cursive;
      font-size: 10px;
      text-align: center;
@@ -231,8 +231,7 @@ h3 {
      color: #BA6513;
      background-color:  #fccdab ;  
      width: 100% ;
-     bottom: 0;
-     
+     height: 150px;
 }
 /* fim do Rodapé*/
 
@@ -322,3 +321,5 @@ h1:hover img{
     width: 100px;
     
 }
+
+

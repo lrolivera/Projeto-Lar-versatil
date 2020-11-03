@@ -7,7 +7,7 @@
       <Title>Lar versátil</Title>
       <link rel = "stylesheet" href = "./Css/estilo-larversatil3.css">
 
-      <link rel="icon" href="./imagens/logopag.png">
+      <link rel="shortcut icon" href="imagens/logopag.png">
 
       <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif&family=Press+Start+2P&family=Ruslan+Display&family=Ubuntu+Mono&family=Yeseva+One&display=swap" rel="stylesheet">
 
@@ -15,16 +15,9 @@
 
   <body>
     <!--menu-->
-    <nav class="menu">
-
-      <a  href="./index.php"> <img width="150px" src="./imagens/logo.png" ></a>
-      
-      <div class= "submenu">
-       <a href="./produtos3.php"> Produtos </a> 
-       <a href="./loja3.php"> Nossas lojas </a> 
-       <a href="./contato3.php"> Contato </a> 
-    </div>
-    </nav>
+   <?php 
+    include_once('menu.html');
+    ?>
    
     <!--Fim do menu-->
 
@@ -37,7 +30,7 @@
 
 
  <!--Promoção-->
-    <h1 id="promocao"> <img  src="./imagens/index/cartaz.png" ></h1>
+    <h1 id="promocao"> <img  src="../imagens/index/cartaz.png" ></h1>
     <br><br><br><br><br>
   <!--Fim do nome da promoção-->
 
@@ -48,7 +41,7 @@
 
 <footer id = "rodape" >
   <p id= "Formasdepamento"> Formas de pagamento </p>
-  <img src="./imagens/formas-de-pagamento.png" >
+  <img src="../imagens/formas-de-pagamento.png" >
   <p> &copy; Larissa - Recode Pro</p>
 </footer>
 
