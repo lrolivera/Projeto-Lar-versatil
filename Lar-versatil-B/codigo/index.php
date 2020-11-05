@@ -23,10 +23,10 @@
    
     <!--Fim do menu-->
 
-<main>
+<main class="container">
   <!-- Nome da página-->
-    <h1>Seja bem vindo(a)!</h1>
-    <h1> A loja de eletrdomesticos, que sempre te dá <em>desconto<b>s</b></em> !</h1> 
+    <h1 >Seja bem vindo(a)!</h1>
+    <h1 > A loja de eletrdomesticos, que sempre te dá <em> desconto<b>s</b></em> !</h1> 
     <br><br><br><br><br>
   <!--Fim do nome da página-->
 

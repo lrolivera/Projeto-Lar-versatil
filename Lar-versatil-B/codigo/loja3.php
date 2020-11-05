@@ -36,15 +36,15 @@
             
             <!--Nossas lojas -->
               <div class = "flex-loja">
-                  <section class="flex">
-                          <div class="nossaslojas  p-3 mb-2 bg-warning text-dark">
+                  <section class="flex container">
+                          <div class="nossaslojas   p-3 mb-2 bg-warning text-dark">
                               <h5>Rio de Janeiro</h5>
                               <p>10 &ordm; andar</p>
                               <p>Centro</p>
                               <p>(21) 3333-3333</p>
                           </div>
       
-                          <div class="nossaslojas p-3 mb-2 bg-warning text-dark">
+                          <div class="nossaslojas  p-3 mb-2 bg-warning text-dark">
                               <h5>São Paulo</h5>
                               <p>Avenida Paulista, 985</p>
                               <p>3 &ordm; andar</p>

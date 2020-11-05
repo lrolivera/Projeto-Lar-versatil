@@ -49,7 +49,7 @@
   </header>
 
   <div class="organizar">
-    <div class="categorias" class="navbar flex-column">
+    <div class="categorias" >
       <h3>Categorias</h3>
       <h4>
         <li onclick="exibir_todos()"> Todos (12)</li>
@@ -73,7 +73,7 @@
                   
             ?>
 
-      <div class="selecaodeprodutos" class="container" id="<?php echo $rows["id_produtos"];?>">
+      <div class="selecaodeprodutos"  id="<?php echo $rows["id_produtos"];?>">
         <img src="<?php echo $rows["nome_img"];?>">
         <br>
         <h5 id="titulo"><?php echo $rows["nome_produtos"];?></h5>
