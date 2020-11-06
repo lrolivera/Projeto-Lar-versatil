@@ -1,6 +1,17 @@
 # Projeto Lar versátil eletro
-###  📌Site para avaliação individual do curso  Recode Pro 2020. 
+####  📌Site para avaliação individual do curso  Recode Pro 2020. 
 
-<h3> Foram utilizados: HTML, Css, JavaScript, SQL, PHP para integrar o front end ao back end e Bootstrap  </h3>
+### Tecnologias
 
-<h6> Projeto em construção </h6>
+![experimental](https://img.shields.io/static/v1?label=&message=Js&color=yellow)
+![experimental](https://img.shields.io/static/v1?label=&message=HTML&color=orange)
+![experimental](https://img.shields.io/static/v1?label=&message=Sql&color=red)
+![experimental](https://img.shields.io/static/v1?label=&message=Css&color=blue)
+![experimental](https://img.shields.io/static/v1?label=&message=Php&color=purple)
+![experimental](https://img.shields.io/static/v1?label=&message=Bootstrap&color=violet)
+
+### Status do projeto
+
+###### 🚧  Em construção...  🚧 
+
+
