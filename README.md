@@ -15,4 +15,6 @@
 
 ###### 🚧  Em construção...  🚧 
 
+#### Obs.: Cada pasta representa uma entrega que foi feita no decorrer do curso. Sendo Lar-versatil 1,2,3, correspondentes a 1-Html, 2-Html css, 3-Html css e javascript.
+
 
