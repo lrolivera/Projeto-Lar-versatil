@@ -13,19 +13,19 @@ function BaseMenu(props) {
             </Nav.Link>   
             </Navbar.Brand> 
             <Navbar.Toggle aria-controls="itemMenu"/>
-            <Navbar.Collapse id="itemMenu">
+            <Navbar.Collapse id="itemMenu ">
                 <Nav activeKey={location.pathname} className="ml-auto mr-3">
                     <Nav.Item>
-                        <Nav.Link as={Link} href="/" to="/"> Página inicial </Nav.Link>
+                        <Nav.Link className="titulo" as={Link} href="/" to="/"> Página inicial </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link  as={Link} href="/produtos" to="/produtos"> Produtos </Nav.Link>
+                        <Nav.Link className="titulo" as={Link} href="/produtos" to="/produtos"> Produtos </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link  as={Link} href="/lojas" to="/lojas"> Nossas Lojas </Nav.Link>
+                        <Nav.Link className="titulo" as={Link} href="/lojas" to="/lojas"> Nossas Lojas </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link  as={Link} href="/contatos" to="/contatos"> Contato </Nav.Link>
+                        <Nav.Link className="titulo" as={Link} href="/contatos" to="/contatos"> Contato </Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Navbar.Collapse>
