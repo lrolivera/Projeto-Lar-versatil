@@ -5,7 +5,7 @@
   <head>
       <meta charset = "UTF-8">
       <Title>Lar versátil</Title>
-      <link rel = "stylesheet" href = "./Css/estilo-larversatil3.css">
+      <link rel = "stylesheet" href = "../codigo/Css/estilo-larversatil3.css">
 
       <link rel="shortcut icon" href="imagens/logopag.png">
 
