@@ -10,7 +10,7 @@ USE larversatil;
 
 CREATE TABLE  Produtos (
  cod_produtos INTEGER NOT NULL AUTO_INCREMENT,
- idprodutos VARCHAR(20),
+ id_produtos VARCHAR(20),
  nomeprodutos VARCHAR(100) NOT NULL,
  descricao VARCHAR(500) NOT NULL,
  preco DECIMAL (8,2) NULL,
@@ -22,7 +22,7 @@ CREATE TABLE  Produtos (
 /* Inserindo Produtos na tabela */
 
 INSERT INTO Produtos(
-idprodutos, nomeprodutos, descricao, preco, precofinal, nomeimg
+id_produtos, nomeprodutos, descricao, preco, precofinal, nomeimg
 ) VALUES
 ('geladeira','Geladeira Velai premuim','gaveta dupla e 2 portas - red',5669.90, 5100.99, '../imagens/Produtos/geladeira1.png'),
 ('geladeira','Geladeira TCL frost free inverse','modelo tradicional',2539.90, 1999.99, '../imagens/Produtos/geladeira2.png'),
