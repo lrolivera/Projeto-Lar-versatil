@@ -10,6 +10,7 @@
 ![experimental](https://img.shields.io/static/v1?label=&message=Php&color=purple)
 ![experimental](https://img.shields.io/static/v1?label=&message=Bootstrap&color=violet)
 ![experimental](https://img.shields.io/static/v1?label=&message=React&color=indigo)
+![experimental](https://img.shields.io/static/v1?label=&message=Node&color=green)
 
 ## Status do projeto
 
