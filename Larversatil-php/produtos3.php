@@ -23,7 +23,7 @@
   <Title>Produtos - Lar Versátil</Title>
   <link rel="stylesheet" href="./Css/estilo-larversatil3.css">
 
-  <link rel="icon" href="../imagens/logopag.png">
+  <link rel="icon" href="./imagens/logopag.png">
 
   <link
     href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif&family=Press+Start+2P&family=Ruslan+Display&family=Ubuntu+Mono&family=Yeseva+One&display=swap"
@@ -73,9 +73,9 @@
             ?>
 
       <div class="selecaodeprodutos" id="<?php echo $rows["id_produtos"];?>">
-        <img src="<?php echo $rows["nome_img"];?>">
+        <img src="<?php echo $rows["nomeimg"];?>">
         <br>
-        <h5 id="titulo"><?php echo $rows["nome_produtos"];?></h5>
+        <h5 id="titulo"><?php echo $rows["nomeprodutos"];?></h5>
         <hr>
         <p id="preço"><?php echo $rows["preco"];?></p>
         <h2 id="promoçao"><?php echo $rows["precofinal"];?></h2>

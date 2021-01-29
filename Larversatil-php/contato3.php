@@ -56,12 +56,12 @@
     <!--Contatos-->
     <div class = "contatos">
             <div  class="contato" >
-                <img src="../imagens/Contato/logoemail.png" >
+                <img src="./imagens/Contato/logoemail.png" >
                 <p>Contato@larversatil.com</p>
             </div>
 
             <div class= "contato" >
-                <img src="../imagens/Contato/logowhatsapp.jpg" >
+                <img src="./imagens/Contato/logowhatsapp.jpg" >
                 <p>(11) 99999 - 9999</p>
             </div>
         

@@ -7,7 +7,7 @@
       <Title> Nossas lojas - Lar versátil </Title>
       <link rel = "stylesheet" href = "./Css/estilo-larversatil3.css">
 
-      <link rel="icon" href="../imagens/logopag.png">
+      <link rel="icon" href="./imagens/logopag.png">
 
       <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif&family=Press+Start+2P&family=Ruslan+Display&family=Ubuntu+Mono&family=Yeseva+One&display=swap" rel="stylesheet">
       
