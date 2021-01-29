@@ -1,8 +1,8 @@
 # Projeto Lar versátil eletro
-###  📌Site para avaliação individual do curso  Recode Pro 2020/2021. 
+##  📌Site para avaliação individual do curso  Recode Pro 2020/2021. 
 
 
-### O Programa:
+## O Programa:
 
 O Programa Recode Pro visa a formação e a empregabilidade de pessoas de 18 a 39 anos, em situação de maior vulnerabilidade social, como programadores full stack.
 
@@ -22,7 +22,7 @@ Os OBJETIVOS ESPECÍFICOS do Recode Pro são:
     > Conectar investidores de impacto, empregadores e educadores com o mesmo propósito;
     > Acompanhar a carreira e o desenvolvimento dos ex-alunos, e procurar envolvê-los como exemplo para os participantes futuros.
     
-   ### conheça:
+   ## Conheça:
    
    ![Recode Pro](https://www.recodepro.org.br/)
 
