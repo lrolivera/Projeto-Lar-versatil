@@ -101,7 +101,7 @@
 
   <footer id="rodape">
     <p id="Formasdepagamento"> Formas de pagamento </p>
-    <img src="../imagens/formas-de-pagamento.png">
+    <img src="./imagens/formas-de-pagamento.png">
     <p> &copy; Larissa - Recode Pro</p>
   </footer>
 
