@@ -74,9 +74,9 @@
             ?>
 
       <div class="selecaodeprodutos"  id="<?php echo $rows["id_produtos"];?>">
-        <img src="<?php echo $rows["nome_img"];?>">
+        <img src="<?php echo $rows["nomeimg"];?>">
         <br>
-        <h5 id="titulo"><?php echo $rows["nome_produtos"];?></h5>
+        <h5 id="titulo"><?php echo $rows["nomeprodutos"];?></h5>
         <hr>
         <p id="preço"><?php echo $rows["preco"];?></p>
         <h3 id="promoçao"><?php echo $rows["precofinal"];?></h3>
