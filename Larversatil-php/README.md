@@ -1,4 +1,9 @@
-## Versão Bootstrap
+#### Integração ao MySql com PHP
 
-![gifinterativo](https://github.com/lrolivera/Projeto-Lar-versatil/blob/master/Lar-versatil-B/boot.gif)
+Vimos que o PHP é uma linguagem muito conhecida e utilizada no mundo inteiro.
+E neste desafio a sua tarefa é:
+
+    Alteração do projeto para consultar e exibir os produtos registrados do banco de dados.
+    Projetar o formulário para envio de pedido.
+
 
