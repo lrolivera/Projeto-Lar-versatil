@@ -7,4 +7,6 @@ Para este projeto você precisa realizar:
 
     a criação da tabela de produtos com nome, descrição, preço e nome da imagem.
     a criação de uma outra tabela de pedidos com nome do cliente, endereço, telefone, nome do produto, valor unitário, quantidade e valor total. 
+    
+   ![gifinterativo](https://github.com/lrolivera/Projeto-Lar-versatil/blob/master/Larversatil-sql-mysql/larversatilsql.gif)
 
