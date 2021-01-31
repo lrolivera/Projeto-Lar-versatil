@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import './Contatos.css';
 
-
+    
 export default function Contatos() {
     const [form, setForm ] = useState({
         nome: "", 
@@ -21,13 +21,13 @@ export default function Contatos() {
     const controleEnvio = async (evento) => {
         evento.preventDefault();
 
-        const url = "http://localhost/conexao/Contatos.php";
+        const url = "http://localhost:4000/contatos";
 
-        const dados = new FormData(evento.target);
+        const write = new FormData(evento.target);
 
         const opcoes = {
             method: "POST",
-            body: dados,
+            body: write,
         }
 
         const resposta = await fetch(url, opcoes);

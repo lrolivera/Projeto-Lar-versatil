@@ -1,6 +1,11 @@
 const express = require ('express')
 const app = express()
 
+
+
+const cors = require("cors") 
+
+
 const mysql = require('mysql')
 const conexao = mysql.createConnection({
       host : 'localhost',
@@ -10,6 +15,8 @@ const conexao = mysql.createConnection({
 })
 
 conexao.connect(console.log('Conectado ao banco'))
+
+app.use(cors())
    
 app.get('/produtos', (req, res)  => {
         conexao.query('select * from Produtos', (err, row) => {
@@ -17,8 +24,12 @@ app.get('/produtos', (req, res)  => {
         })
 })
 
+
+
 app.use(express.static('public'))
 
-app.listen(4000, () => {
+
+
+app.listen(1910, () => {
     console.log("servidor ok!")
 })
