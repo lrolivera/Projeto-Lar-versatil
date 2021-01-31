@@ -2,7 +2,7 @@ const express = require ('express')
 const app = express()
 
 
-
+const bodyparser = require('body-parser')
 const cors = require("cors") 
 
 
@@ -22,6 +22,17 @@ app.get('/produtos', (req, res)  => {
         conexao.query('select * from Produtos', (err, row) => {
             res.json(row)
         })
+})
+
+
+app.post('/contatos', (req, res, next)  => {
+    let Dados = {
+        nome : req.params.nome,
+        msg	:   req.params.msg
+    }
+    conexao.query('INSERT INTO comentarios SET?', Dados, (err, row) => {
+        res.json(row)
+    })
 })
 
 

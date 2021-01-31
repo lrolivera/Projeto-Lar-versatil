@@ -21,7 +21,7 @@ export default function Contatos() {
     const controleEnvio = async (evento) => {
         evento.preventDefault();
 
-        const url = "http://localhost:4000/contatos";
+        const url = "http://localhost:1910/contatos";
 
         const write = new FormData(evento.target);
 
