@@ -1,15 +1,13 @@
+import {useState} from 'react';
 import {Form, FormGroup, Button, Container, FormControl } from 'react-bootstrap';
-import { useState } from 'react';
 
-import './Contatos.css';
+import './Contatos.css'
 
-    
-export default function Contatos() {
-    const [form, setForm ] = useState({
-        nome: "", 
-        msg: "",
-    })
-
+export default function Contato() {
+    const [ form, setForm ] = useState({
+        nome: "",
+        msg: ""
+    });
 
     const controleMudanca = (evento) => {
         setForm({
@@ -17,26 +15,21 @@ export default function Contatos() {
             [evento.target.id]: evento.target.value
         })
     }
-    
+
     const controleEnvio = async (evento) => {
         evento.preventDefault();
 
-        const url = "http://localhost:1910/contatos";
-
-        const write = new FormData(evento.target);
+        const json = JSON.stringify(form);
 
         const opcoes = {
-            method: "POST",
-            body: write,
+            method: 'POST',
+            headers: { 'Content-type': 'application/json', "Acess-Control-Allow-Origin": "*" },
+            body: json
         }
 
-        const resposta = await fetch(url, opcoes);
-        const resultado = await resposta.json();
-
-        if (resultado.mensagem === "Metodo POST Efetuado"){      
-            alert('Mensagem enviada com sucesso!');
-        }
-
+        const resposta = await  fetch("http://localhost:1910/contatos",
+        opcoes);
+        const dados = await resposta.json()
     }
 
     return (
