@@ -26,8 +26,8 @@ app.get('/produtos', (req, res)  => {
 
 app.post('/contatos', (req, res, next)  => {
     let Dados = {
-        nome : req.body.nome,
-        msg	:   req.body.msg
+        nome : req.params.nome,
+        msg	:   req.params.msg
     }
     conexao.query('INSERT INTO comentarios SET?', Dados, (err, row) => {
         res.json(row)
