@@ -6,6 +6,8 @@ import Contatos from './Paginas/Contato/Contatos';
 import Produtos from './Paginas/Produtos/Produtos';
 import Relatorio from './Paginas/Resposta/Relatorio'
 
+
+
 function Rotas() {
     return (
         <Switch>

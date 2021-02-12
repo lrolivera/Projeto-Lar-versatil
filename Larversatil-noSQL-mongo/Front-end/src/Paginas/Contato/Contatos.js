@@ -5,16 +5,16 @@ import './Contatos.css'
 
 export default function Contato() {
     const [ form, setForm ] = useState({
-        nome: "",
-        msg: ""
     });
 
-    const controleMudanca = (evento) => {
+    const controleMudanca = ({target}) => {
+        const {name, value} =target
         setForm({
             ...form,
-            [evento.target.id]: evento.target.value
+            [name]: value
         })
     }
+
 
     const controleEnvio = async (evento) => {
         evento.preventDefault();
@@ -27,7 +27,7 @@ export default function Contato() {
             body: json
         }
 
-        const resposta = await  fetch("http://localhost:3333/contatos",
+        const resposta = await  fetch("http://localhost:3333/comentarios",
         opcoes);
         const dados = await resposta.json()
     }

@@ -10,6 +10,7 @@ export default function Produtos() {
         const resposta = await fetch("http://localhost:3333/produtos")
         const dados = await resposta.json()
         setProdutos(dados);
+        console.log(dados);
     }, []);
     return (
         <Container>
