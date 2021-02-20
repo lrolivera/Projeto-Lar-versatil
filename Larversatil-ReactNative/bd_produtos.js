@@ -1,0 +1,111 @@
+const Produtos = [
+    {
+        
+        "codprodutos": "1",
+        "idprodutos": "geladeira",
+        "nomeprodutos": "Geladeira Velai premuim",
+        "descricao": "gaveta dupla e 2 portas - red",
+        "preco": "5669.90",
+        "precofinal": "5100.99",
+        "nomeimg": "geladeira1.png"
+    },{
+        
+        "codprodutos": "2",
+        "idprodutos": "geladeira",
+        "nomeprodutos": "Geladeira TCL frost free inverse",
+        "descricao": "modelo tradicional",
+        "preco": "2539.90",
+        "precofinal": "1999.99",
+        "nomeimg": "geladeira2.png"
+    },{
+        
+        "codprodutos": "3",
+        "idprodutos": "geladeira",
+        "nomeprodutos": "Geladeira Velai",
+        "descricao": "gaveta dupla e 2 portas - grey",
+        "preco": "5459.90",
+        "precofinal": "4849.99",
+        "nomeimg": "geladeira3.png"
+    },{
+        "codprodutos": "4",
+        "idprodutos": "fogao",
+        "nomeprodutos": "Fogão AbC sp",
+        "descricao": "forno duplo de 4 bocas",
+        "preco": "3220.90",
+        "precofinal": "2849.99",
+        "nomeimg": "fogao1.png"
+    },{
+        "codprodutos": "5",
+        "idprodutos": "fogao",
+        "nomeprodutos": "Fogão prither",
+        "descricao": "forno duplo de 4 bocas",
+        "preco": "2669.90",
+        "precofinal": "2249.99",
+        "nomeimg": "fogao2.png"
+    },{
+
+        "codprodutos": "6",
+        "idprodutos": "microondas",
+        "nomeprodutos": "Microondas convecs",
+        "descricao": "aço inox - greyblack",
+        "preco": "659.90",
+        "precofinal": "586.90",
+        "nomeimg": "microondas1.png"
+    },{
+
+        "codprodutos": "7",
+        "idprodutos": "microondas",
+        "nomeprodutos": "Microondas philque ",
+        "descricao": "aço inox - white",
+        "preco": "539.90",
+        "precofinal": "465.55",
+        "nomeimg": "microondas2.png"
+    },{
+
+        "codprodutos": "8",
+        "idprodutos": "microondas",
+        "nomeprodutos": "Microondas fonit",
+        "descricao": "tradicional - grey",
+        "preco": "899.90",
+        "precofinal": "769.99",
+        "nomeimg": "microondas3.png"
+    },{
+
+        "codprodutos": "9",
+        "idprodutos": "lavadouraderoupas",
+        "nomeprodutos": "Lavadoura de Roupas Velai",
+        "descricao": "10 kg - grey",
+        "preco": "3539.90",
+        "precofinal": "2849.99",
+        "nomeimg": "lavadoura1.png"
+    },{
+
+        "codprodutos": "10",
+        "idprodutos": "lavadouraderoupas",
+        "nomeprodutos": "Lavadoura de Roupas VVA",
+        "descricao": "8 kg - white",
+        "preco": "2539.90",
+        "precofinal": "1129.99",
+        "nomeimg": "lavadoura2.png"
+    },{
+
+        "codprodutos": "11",
+        "idprodutos": "lavaloucas",
+        "nomeprodutos": "Lava-louças convecs",
+        "descricao": "tradicional - greygelo",
+        "preco": "4539.90",
+        "precofinal": "3849.99",
+        "nomeimg": "lavalouca1.png"
+    },{
+
+        "codprodutos": "12",
+        "idprodutos": "lavaloucas",
+        "nomeprodutos": "Lava-louças abC sp",
+        "descricao": "tradicional - grey",
+        "preco": "3789.90",
+        "precofinal": "2649.99",
+        "nomeimg": "lavalouca2.png"
+    }
+]
+
+export default Produtos

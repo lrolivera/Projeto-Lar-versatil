@@ -1,11 +1,15 @@
 import React from 'react'
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native'
+import {Navigation} from '@react-navigation/bottom-tabs';
+
+
+
 
 
 const Botao = ({text}) => {
   return (
     <View>
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button}  >
             <Text style={styles.p}>{text}</Text>
         </TouchableOpacity>
     </View>
@@ -23,8 +27,8 @@ const styles = StyleSheet.create({
   button: {
     alignItems: 'center', 
     backgroundColor: "#3276b2", 
-    paddingHorizontal: 80,
-    paddingVertical: 20, 
+    paddingHorizontal: 70,
+    paddingVertical: 15, 
     width: 95,
     borderRadius: 9,  
   }

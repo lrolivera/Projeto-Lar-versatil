@@ -9,7 +9,7 @@ export default function Lojas () {
   return (
 
       <View style={styles.container} >
-         <View style={styles.card} >
+          <View style={styles.card} >
           <Text style={styles.text}>Rio de Janeiro</Text>
           <Text style={styles.text}>10° andar</Text>
           <Text style={styles.text}>Centro</Text>

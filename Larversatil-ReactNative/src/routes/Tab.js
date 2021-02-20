@@ -14,22 +14,22 @@ import Contatos from '../Pages/Contatos';
 const routeTab = createBottomTabNavigator()
 
 const Tab = () => {
-  return (
+return (
     <routeTab.Navigator initialRouteName='Login' tabBarOptions={{
-      activeTintColor: '#000',
-      inactiveTintColor: '#4a5866',
-      labelStyle: {fontSize: 20},
-      style: {backgroundColor: '#ffc107', }
+        activeTintColor: '#000',
+        inactiveTintColor: '#4a5866',
+        labelStyle: {fontSize: 20},
+        style: {backgroundColor: '#ffc107', }
 
-      
+
     }} >
-      <routeTab.Screen name="Login" component={Login} />
-      <routeTab.Screen name="Home" component={Home} />
-      <routeTab.Screen name="Produtos" component={Produtos} />
-      <routeTab.Screen name="Lojas" component={Lojas} />
-      <routeTab.Screen name="Contatos" component={Contatos}/>
+        <routeTab.Screen name="Login" component={Login} />
+        <routeTab.Screen name="Home" component={Home} />
+        <routeTab.Screen name="Produtos" component={Produtos} />
+        <routeTab.Screen name="Lojas" component={Lojas} />
+        <routeTab.Screen name="Contatos" component={Contatos}/>
     </routeTab.Navigator>
-  )
+    )
 }
 
 

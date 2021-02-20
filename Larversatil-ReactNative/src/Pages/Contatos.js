@@ -6,7 +6,9 @@ import Input from '../Componentes/Input'
 import Botton from '../Componentes/Botton'
 
 export default function Contatos () {
-  
+
+
+
 
   return (
 
@@ -15,13 +17,13 @@ export default function Contatos () {
           <Text style={styles.text}>Contato@larversatil.com</Text>
           <Text style={styles.text}>(11) 99999-9999</Text>
         </View>
-         <View style={styles.card}>
+          <View style={styles.card}>
             <Text>Nome:</Text>
             <Input />
             <Text>Mensagem:</Text>
             <Input />
-            <Botton />
-         </View>
+            <Botton text='Enviar' />
+          </View>
 
       </View>
   )
